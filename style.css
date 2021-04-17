@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 61%;
+}
+.hero{
+    background: url("images/slide_01.jpg");
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 21px;
+    padding-top: 8px;
+}
+nav li{
+    padding-right: 24px !important;
+}
+.banner{
+    padding-top: 174px;
+    padding-left: 12px;
+    padding-bottom: 400px;
+}
+.largeTitle{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 33px;
+    padding: 10px 0px 20px 0;
+}
+.bannerBody{
+    font-size: 18px;
+    line-height: 27px;
+    padding: 0 0 20px 0;
+}
+.banner a{
+    color: #5b98ff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+}
