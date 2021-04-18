@@ -4,6 +4,10 @@ body{
 .container{
     max-width: 61%;
 }
+
+/****************************************/
+/******* Banner Section And Navbar ******/
+/****************************************/
 .hero{
     background: url("images/slide_01.jpg");
     background-size: cover;
@@ -38,4 +42,117 @@ nav li{
     font-size: 18px;
     font-weight: 300;
     line-height: 27px;
+}
+
+
+/****************************/
+/******* About Section ******/
+/****************************/
+.about .firstPart{
+    background: linear-gradient(90deg, rgba(74,142,250,1) 0%, rgba(52,179,254,1) 100%);
+    padding: 50px 0 40px 0;
+}
+.sectionHead{
+    width: 40%;
+    margin: auto;
+}
+.divTitle{
+    color: #5B98FF;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 0 0 20px 0;
+}
+.divBody{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    padding: 0 0 20px 0;
+}
+.spacerP-1{  
+    padding: 90px 0 0 0 ;
+}
+.spacerM-1{ 
+    padding: 50px 0 0 0 ;
+}
+.spacerM-2{
+    padding: 100px 0 0 0 ;
+}
+.spacerM-3{ 
+    padding: 150px 0 0 0 ;
+}
+.whiteBg {
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px 35px 45px 25px;
+}
+.text-blue{
+    
+}
+.btn-primary{
+    background: #4a8bfc;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    border: 0;
+    padding: 10px 20px;
+}
+
+
+/*******************************/
+/******* Services Section ******/
+/*******************************/
+
+.services1 .divBody{
+    padding: 0 20px;
+}
+.services2{
+    background: #343434;
+}
+.services2 .divBody{
+    color: #999999;
+}
+
+
+.team img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.team .divTitle{
+    padding-top: 20px;
+}
+
+
+
+.package{
+    background: #E8E8E8;
+    padding: 25px 0px 30px 0px;
+}
+.packPrice{
+    color: #6c757d;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 20px;
+}
+.green{
+    color: #07b307;
+}
+
+
+.achivements{
+    background: linear-gradient(90deg, rgba(74,142,250,1) 0%, rgba(52,179,254,1) 100%);
+}
+.rewardTitle{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+.achivements .divBody{
+    font-size: 17px;
+}
+.right-border{
+    padding: 20px 0;
+    border-right: 1px solid rgba(255,255,255,0.07);
 }
