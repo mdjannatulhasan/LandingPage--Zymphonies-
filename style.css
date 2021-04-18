@@ -1,9 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.container{
-    max-width: 61%;
-}
+
 
 /****************************************/
 /******* Banner Section And Navbar ******/
@@ -17,9 +15,7 @@ body{
     font-size: 21px;
     padding-top: 8px;
 }
-nav li{
-    padding-right: 24px !important;
-}
+
 .banner{
     padding-top: 174px;
     padding-left: 12px;
@@ -52,10 +48,10 @@ nav li{
     background: linear-gradient(90deg, rgba(74,142,250,1) 0%, rgba(52,179,254,1) 100%);
     padding: 50px 0 40px 0;
 }
-.sectionHead{
+/* .sectionHead{
     width: 40%;
     margin: auto;
-}
+} */
 .divTitle{
     color: #5B98FF;
     font-size: 21px;
@@ -69,7 +65,7 @@ nav li{
     font-weight: 300;
     padding: 0 0 20px 0;
 }
-.spacerP-1{  
+/* .spacerP-1{  
     padding: 90px 0 0 0 ;
 }
 .spacerM-1{ 
@@ -80,7 +76,7 @@ nav li{
 }
 .spacerM-3{ 
     padding: 150px 0 0 0 ;
-}
+} */
 .whiteBg {
     margin: auto;
     background-color: #ffffff;
@@ -152,10 +148,7 @@ nav li{
 .achivements .divBody{
     font-size: 17px;
 }
-.right-border{
-    padding: 20px 0;
-    border-right: 1px solid rgba(255,255,255,0.07);
-}
+
 
 
 .contacts .divBody{
@@ -175,4 +168,73 @@ footer{
 }
 .fab{
     margin: 0px 10px;
+}
+
+
+@media only screen and (min-width: 769px) {
+    .container{
+        max-width: 61%;
+    }
+    nav li{
+        padding-right: 24px !important;
+    }
+    .sectionHead{
+        width: 40%;
+        margin: auto;
+    }
+    .spacerP-1{  
+        padding: 90px 0 0 0 ;
+    }
+    .spacerM-1{ 
+        padding: 50px 0 0 0 ;
+    }
+    .spacerM-2{
+        padding: 100px 0 0 0 ;
+    }
+    .spacerM-3{ 
+        padding: 150px 0 0 0 ;
+    }
+    .right-border{
+        padding: 20px 0;
+        border-right: 1px solid rgba(255,255,255,0.07);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sectionHead{
+        width: 80%;
+        margin: auto;
+    }
+    .whiteBg{
+        text-align: center;
+    }
+    .spacerP-1{  
+        padding: 90px 0 0 0 ;
+    }
+    .spacerM-1{ 
+        padding: 0px 0 0 0 ;
+    }
+    .spacerM-2{
+        padding: 50px 0 0 0 ;
+    }
+    .spacerM-3{ 
+        padding: 100px 0 0 0 ;
+    }
+    .secondPart{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .contacts{
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .borderM{
+        border: 1px solid #cdcdcd;
+        padding: 10px 0;
+    }
+    .top-border{
+        padding: 20px;
+        border-top: 1px solid rgba(255,255,255,0.07);
+    }
 }
