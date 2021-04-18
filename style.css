@@ -10,7 +10,9 @@ body{
     background: url("images/slide_01.jpg");
     background-size: cover;
 }
-
+.navbar-toggler{
+    background: rgba(255, 255, 255, 0.609) !important;
+}
 .navbar-brand{
     font-size: 21px;
     padding-top: 8px;
@@ -171,12 +173,21 @@ footer{
 }
 
 
-@media only screen and (min-width: 769px) {
+
+@media only screen and (max-width: 1024px) {
     .container{
         max-width: 61%;
     }
     nav li{
         padding-right: 24px !important;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .container{
+        max-width: 61%;
+    }
+    nav li{
+        padding-right: 15px !important;
     }
     .sectionHead{
         width: 40%;
@@ -206,6 +217,9 @@ footer{
     }
 }
 @media only screen and (max-width: 768px) {
+    .container{
+        max-width: 90%;
+    }
     .sectionHead{
         width: 80%;
         margin: auto;
