@@ -163,9 +163,9 @@ footer{
     color: #999999;
     font-size: 14px;
 }
-.rightCol{
+/* .rightCol{
     text-align: right;
-}
+} */
 .fab{
     margin: 0px 10px;
 }
@@ -198,6 +198,12 @@ footer{
         padding: 20px 0;
         border-right: 1px solid rgba(255,255,255,0.07);
     }
+    .rBorder{
+        padding: 20px 0;
+    }
+    .rightCol{
+        text-align: right;
+    }
 }
 @media only screen and (max-width: 768px) {
     .sectionHead{
@@ -224,6 +230,13 @@ footer{
         width: 90%;
         margin: auto;
     }
+    .right-border{
+        padding: 20px 0;
+        border-right: 1px solid rgba(255,255,255,0.07);
+    }
+    .rBorder{
+        padding: 20px 0;
+    }
     .contacts{
         padding: 0 20px;
     }
@@ -239,5 +252,8 @@ footer{
     .top-border{
         padding: 20px;
         border-top: 1px solid rgba(255,255,255,0.07);
+    }
+    footer{
+        text-align: center;
     }
 }
