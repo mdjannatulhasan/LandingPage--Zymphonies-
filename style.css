@@ -182,16 +182,24 @@ footer{
         padding-right: 24px !important;
     }
 }
+@media only screen and (min-width: 992px) {
+    .sectionHead{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .sectionHead{
+        width: 80%;
+        margin: auto;
+    }
+}
 @media only screen and (min-width: 769px) {
     .container{
         max-width: 61%;
     }
     nav li{
         padding-right: 15px !important;
-    }
-    .sectionHead{
-        width: 40%;
-        margin: auto;
     }
     .spacerP-1{  
         padding: 90px 0 0 0 ;
