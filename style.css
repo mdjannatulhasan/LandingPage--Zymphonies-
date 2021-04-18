@@ -106,7 +106,7 @@ nav li{
 .services1 .divBody{
     padding: 0 20px;
 }
-.services2{
+.services2, .contacts{
     background: #343434;
 }
 .services2 .divBody{
@@ -155,4 +155,24 @@ nav li{
 .right-border{
     padding: 20px 0;
     border-right: 1px solid rgba(255,255,255,0.07);
+}
+
+
+.contacts .divBody{
+    color: #cdcdcd;
+    padding-bottom: 50px;
+}
+
+
+footer{
+    padding: 20px 0;
+    background-color: #212121;
+    color: #999999;
+    font-size: 14px;
+}
+.rightCol{
+    text-align: right;
+}
+.fab{
+    margin: 0px 10px;
 }
