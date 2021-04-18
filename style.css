@@ -18,11 +18,11 @@ body{
     padding-top: 8px;
 }
 
-.banner{
+/* .banner{
     padding-top: 174px;
     padding-left: 12px;
     padding-bottom: 400px;
-}
+} */
 .largeTitle{
     font-size: 27px;
     font-weight: 500;
@@ -201,6 +201,11 @@ footer{
     nav li{
         padding-right: 15px !important;
     }
+    .banner{
+        padding-top: 174px;
+        padding-left: 12px;
+        padding-bottom: 400px;
+    }
     .spacerP-1{  
         padding: 90px 0 0 0 ;
     }
@@ -231,6 +236,11 @@ footer{
     .sectionHead{
         width: 80%;
         margin: auto;
+    }
+    .banner{
+        padding-top: 174px;
+        padding-left: 12px;
+        padding-bottom: 200px;
     }
     .whiteBg{
         text-align: center;
