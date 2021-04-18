@@ -232,6 +232,9 @@ footer{
     .borderM{
         border: 1px solid #cdcdcd;
         padding: 10px 0;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .top-border{
         padding: 20px;
