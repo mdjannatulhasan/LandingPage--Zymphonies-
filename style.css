@@ -110,7 +110,9 @@ body{
 .services2 .divBody{
     color: #999999;
 }
-
+.borderM{
+    background-color: #F6F6F6;
+}
 
 .team img{
     max-width: 200px;
@@ -275,7 +277,8 @@ footer{
 }
 @media only screen and (max-width: 576px) {
     .borderM{
-        border: 1px solid #cdcdcd;
+        /* border: 1px solid #cdcdcd; */
+        background-color: #F6F6F6;
         padding: 10px 0;
         width: 90%;
         margin-right: auto;
